@@ -20,6 +20,11 @@ public class Cliente {
         this.librosEnPoder = new ArrayList<>();
     }
 
+
+    public String getNombre() {
+        return nombre;
+    }
+
     // Realizar pedidos de libros: Implementa una función que permita a un cliente realizar
     // un pedido de uno o más libros. Asegúrate de actualizar la cantidad disponible de cada libro pedido.
 

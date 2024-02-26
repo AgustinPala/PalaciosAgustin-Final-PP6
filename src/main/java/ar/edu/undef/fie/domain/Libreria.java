@@ -9,11 +9,16 @@ import java.util.HashMap;
 public class Libreria {
 
     private HashMap<String, Libro> inventario;
+
     private ArrayList<Libro> librosPrestados;
 
     public Libreria() {
         inventario = new HashMap<>();
         librosPrestados = new ArrayList<>();
+    }
+
+    public HashMap<String, Libro> getInventario() {
+        return inventario;
     }
 
     // Añadir libros al inventario con la información del título, autor y género.
